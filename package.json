@@ -1,0 +1,26 @@
+{
+  "name": "highandcat",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/espenraugstad/highandcat#readme",
+  "bugs": {
+    "url": "https://github.com/espenraugstad/highandcat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espenraugstad/highandcat.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
