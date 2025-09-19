@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Edit text</h1>
+    <h2>Categories</h2>
+    <p>Create categories</p>
+    <div id="createCategories">
+        <label for="categoryName">Category</label>
+        <input type="text" name="categoryName" id="categoryName">
+        <label for="categoryDescription">Description</label>
+        <input type="text" name="categoryDescription" id="categoryDescription">
+        <button id="addCategory">Add category</button>
+        <button id="clearCategories">Delete all categories</button>
+    </div>
+
+    <h2>Highlight text</h2>
+    <p>Add text below. Format with Markdown.</p>
+    <section id="editSection">
+
+        <textarea name="mainText" id="mainText"></textarea>
+
+        <div id="categories">
+            <h3>Categories</h3>
+            <div id="categoryList"></div>
+            <button id="categorizeBtn">Add selected text to category</button>
+        </div>
+    </section>
+
+<script src="./scripts/edit.js"></script>
+
+</body>
+
+</html>
